@@ -1,3 +1,46 @@
 body{
     margin: 0;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 10px solid rgb(103, 102, 102);
+    width: 50%;
+}
+h1{
+    text-align: center;
+    color: rgba(255, 0, 64, 0.56);
+}
+h2,h5{
+    text-align: center;
+    color: rgba(255, 0, 64, 0.56);
+}
+ .socialmedia .socialmediaicon{
+    font-size: 35px;
+    display: flexbox;
+    padding: 0px 20px;
+    color:  rgba(255, 0, 64, 0.56);
+}
+.socialmedia .socialmediaicon:hover{
+    color:rgb(145, 61, 223);
+}
+.socialicon{
+    margin-left: 42.7%;
+    margin-bottom: 1%;
+}
+.copyright{
+    text-align: center;
+    color: rgba(255, 0, 64, 0.56);
+}
+.copyright a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+.copyright a:hover{
+    text-decoration: underline;
+    color:rgb(145, 61, 223);
 }
